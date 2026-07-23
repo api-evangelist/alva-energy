@@ -1,8 +1,16 @@
 aid: alva-energy
 name: Alva Energy
-description: 'Alva Energy is a company surfaced as a portfolio company of playground-global and added
-  to the API Evangelist network as a stub for enrichment. Sector: energy-transition. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Alva Energy is a nuclear technology company rewriting the economics of nuclear
+  deployment to deliver gigawatts of clean power in years, not decades. Rather than building
+  new reactors, Alva productizes capacity upgrades ("uprates") for the existing U.S. reactor
+  fleet: the Alva Uprate combines advanced steam generators with improved heat transfer,
+  a second turbine plant (2TGP) sited outside the protected area, and the DUO-SYNC digital
+  control system, adding roughly 250-300 MWe per reactor as a fixed-price, turnkey project
+  deployable in under two years and targeting 10 GWe across the fleet. The company launched
+  in February 2026 with $33 million in funding led by Playground Global to meet surging
+  power demand from AI and industrial load. This profile was surfaced as a portfolio company
+  of playground-global and added to the API Evangelist network; Alva Energy publishes a
+  marketing and news presence but no public developer, API, or SDK surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/alva-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,29 @@ x-backed-by:
 - playground-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://alvaenergy.io/wp-content/uploads/2026/02/hero-image.jpg
 tags:
 - Company
 - Energy Transition
+- Nuclear
+- Clean Energy
+- Nuclear Uprates
+- Power Generation
+- Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://alvaenergy.io/
+- type: Blog
+  url: https://alvaenergy.io/latest/
+- type: Support
+  url: https://alvaenergy.io/contact/
+- type: DomainSecurity
+  url: security/alva-energy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
